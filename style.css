@@ -1,0 +1,22 @@
+.counter {
+  display: grid;
+  place-items: center;
+}
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.count h2 {
+  background-color: rgb(15, 169, 66);
+  color: aliceblue;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0 2rem;
+}
+.count .value {
+  background-color: rgb(33, 92, 154);
+  color: aliceblue;
+}
